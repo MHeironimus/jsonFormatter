@@ -1,0 +1,37 @@
+﻿body {
+    font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.2em;
+    background-color: #b9d27a;
+    text-shadow: 2px 2px 2px #99b554;
+}
+
+div.content {
+    padding: 5px 10px 10px 10px;
+    margin: 0;
+    background-color: #fcffee;
+}
+
+.exampleJavaScript {
+    border: 1px solid gray;
+    overflow: auto;
+    white-space: nowrap;
+    font-family: Courier New, Courier, monospace;
+    font-size: 15px;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.exampleJson {
+    border: 1px solid gray;
+    overflow: auto;
+    white-space: nowrap;
+    font-family: Courier New, Courier, monospace;
+    font-size: 15px;
+    background-color: white;
+    margin-bottom: 1em;
+}
