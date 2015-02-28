@@ -13,22 +13,22 @@
         <h1>jsonFormatter Example</h1>
         <section>
             <h2>Default Theme, Default Options Example</h2>
-            <div class="exampleJavaScript">$.jsonFormatter();</div>
+            <div class="exampleJavaScript">$('.jsonFormatter').jsonFormatter();</div>
             <div class="exampleJson jsonFormatter">{stringValue:"string value",numberValue:-4.506,booleanValue:true,arrayOfStrings:['one','two','three'],arrayOfObjects:[{firstProperty:1,secondProperty:2},{firstProperty:3,secondProperty:4}],undefinedProperty:undefined,emptyProperty:{}}</div>
         </section>
         <section>
             <h2>Default Theme, Custom Options</h2>
-            <div class="exampleJavaScript">$.jsonFormatter({ quoteKeys: false, collapsible: false, hideOriginal: false });</div>
-            <div class="exampleJson jsonFormatterQuoteKeysFalse">{stringValue:"string value",numberValue:-4.506,booleanValue:true,arrayOfStrings:['one','two','three'],arrayOfObjects:[{firstProperty:1,secondProperty:2},{firstProperty:3,secondProperty:4}],undefinedProperty:undefined,emptyProperty:{}}</div>
+            <div class="exampleJavaScript">$('.jsonFormatterCustom').jsonFormatter({ quoteKeys: false, collapsible: false, hideOriginal: false });</div>
+            <div class="exampleJson jsonFormatterCustom">{stringValue:"string value",numberValue:-4.506,booleanValue:true,arrayOfStrings:['one','two','three'],arrayOfObjects:[{firstProperty:1,secondProperty:2},{firstProperty:3,secondProperty:4}],undefinedProperty:undefined,emptyProperty:{}}</div>
         </section>
         <section>
             <h2>Dark Theme Example</h2>
-            <div class="exampleJavaScript">$.jsonFormatter();</div>
+            <div class="exampleJavaScript">$('.jsonFormatter').jsonFormatter();</div>
             <div class="exampleJson jsonFormatter jsonFormatter-darkTheme">{stringValue:"string value",numberValue:-4.506,booleanValue:true,arrayOfStrings:['one','two','three'],arrayOfObjects:[{firstProperty:1,secondProperty:2},{firstProperty:3,secondProperty:4}],undefinedProperty:undefined,emptyProperty:{}}</div>
         </section>
         <section>
             <h2>Invalid JSON Example</h2>
-            <div class="exampleJavaScript">$.jsonFormatter();</div>
+            <div class="exampleJavaScript">$('.jsonFormatter').jsonFormatter();</div>
             <div class="exampleJson jsonFormatter">This is not a valid JSON string.</div>
         </section>
     </div>
@@ -37,8 +37,8 @@
     <script src="../source/jsonFormatter.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $.jsonFormatter();
-            $.jsonFormatter({ selector: '.jsonFormatterQuoteKeysFalse', quoteKeys: false, collapsible: false, hideOriginal: false });
+            $('.jsonFormatter').jsonFormatter();
+            $('.jsonFormatterCustom').jsonFormatter({ quoteKeys: false, collapsible: false, hideOriginal: false });
         });
     </script>
 </body>
