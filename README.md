@@ -31,6 +31,12 @@ Specifies if arrays and objects are collapsible in the formatted output.
 Specifies if the original element is hidden. The element will only be hidden if it contains valid JSON that was successfully formatted.
 
 ## Example
+
+### Before
+![before](http://lh4.ggpht.com/-g0Ge1Ab1Vp4/VPIeSp0PirI/AAAAAAAAC0w/2Dn7yZMXPls/before_thumb%25255B6%25255D.png?imgmax=800)
+### After
+![after](http://lh4.ggpht.com/-V-RGrXy7QGY/VPIeTJ4B1lI/AAAAAAAAC08/jhAI6ksNjKY/after_thumb%25255B5%25255D.png?imgmax=800)
+### HTML
 ```
 <html>
 <head>
